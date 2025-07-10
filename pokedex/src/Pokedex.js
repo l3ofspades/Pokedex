@@ -1,7 +1,7 @@
 import React from "react";
 import Pokecard from "./Pokecard";
 
-function Pokedex({ pokemon }) {
+function Pokedex({ pokemon = [] }) {
   return (
     <div className="Pokedex">
       {pokemon.map(p => (
